@@ -50,12 +50,13 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/yhadevol/Assexon">Assexon</a>
-      year: 2018-2019
-      description: 'Assexon: Assembling Exon Using Gene Capture Data'
     - title: <a href="https://github.com/krishnanlab/cone">CONE</a>
       year: 2023
       description: 'CONE: COntext-specific Network Embedding via Contextualized Graph Attention'
+    - title: <a href="https://github.com/yhadevol/Assexon">Assexon</a>
+      year: 2018-2019
+      description: 'Assexon: Assembling Exon Using Gene Capture Data'
+   
 
 - title: Honors and Awards
   type: time_table
