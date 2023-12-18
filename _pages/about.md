@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
     <p>
-    Dual PhD at Michigan State University<br>
+    PhD Candidate at Michigan State University<br>
     Genetic and Genome Science Program<br>
     Ecology, Evolution and Behavior Program<br>
     </p>
