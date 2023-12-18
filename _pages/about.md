@@ -4,7 +4,8 @@ title: about
 permalink: /
 subtitle: >
     <p>
-    PhD Candidate at Michigan State University<br>
+    PhD Candidate<br>
+    Michigan State University<br>
     Genetic and Genome Science Program<br>
     Ecology, Evolution and Behavior Program<br>
     </p>
