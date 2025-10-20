@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{ai2025estimation,
+  title={Estimation of species abundance based on the number of segregating sites using environmental DNA (eDNA)},
+  author={Ai, Qiaoyun and Yuan, Hao and Wang, Ying and Li, Chenhong},
+  journal={Molecular Ecology Resources},
+  volume={25},
+  number={6},
+  pages={e14076},
+  year={2025},
+  publisher={Wiley Online Library},
+  abstract = {The advance of environmental DNA (eDNA) has enabled rapid and non-invasive species detection in aquatic environments. Although most studies focus on species detections, some recent studies explored the potential of using eDNA concentration to quantify species abundance. However, the differential individual DNA contribution to eDNA samples could easily obscure the concentration-species abundance relationship. We propose using the number of segregating sites as a proxy for estimating species abundance. Since segregating sites reflects the genetic diversity of the population, which is less sensitive to differential individual DNA contribution than eDNA concentration. We examined the relationship between the number of segregating sites and species abundance in silico, in vitro, and in situ using two brackish goby species, Acanthogobius hasta and Tridentiger bifasciatus. Analyses of the simulated data and in vitro data with DNA mixed from a known number of individuals showed a strong correlation between the number of segregating sites and species abundance (R2 > 0.9; P < 0.01). Results from the in situ experiment further validated the correlation (R2 = 0.70, P < 0.01), and such correlation was not affected by biotic factors, including body size and feeding behavior (P > 0.05). Results of the cross-validation test also showed that the number of segregating sites predicted species abundance with less bias and variability than the eDNA concentration. Overall, the number of segregating sites correlates stronger with species abundance and also provides a better estimate than eDNA concentration. This advancement can significantly enhance the quantitative capabilities of eDNA technology.},
+  preview = {ai2024estimation.png},
+}
+
 @article{yuan2024computational,
   title={Computational strategies for cross-species knowledge transfer and translational biomedicine},
   author={Yuan, Hao and Mancuso, Christopher A and Johnson, Kayla and Braasch, Ingo and Krishnan, Arjun},
@@ -12,41 +25,31 @@
 
 @article{yuan2024annotating,
   title={Annotating publicly-available samples and studies using interpretable modeling of unstructured metadata},
-  author={Yuan, Hao and Hicks, Parker and Ahmadian, Mansooreh and Johnson, Kayla and Valtadoros, Lydia and Krishnan, Arjun},
-  journal={bioRxiv},
-  pages={2024--06},
+  author={Yuan, Hao and Hicks, Parker and Ahmadian, Mansooreh and Johnson, Kayla A and Valtadoros, Lydia and Krishnan, Arjun},
+  journal={Briefings in Bioinformatics},
+  volume={26},
+  number={1},
   year={2024},
+  publisher={Oxford Academic},
   abstract = {Reusing massive collections of publicly available biomedical data can significantly impact knowledge discovery. However, these public samples and studies are typically described using unstructured plain text, hindering the findability and further reuse of the data. To combat this problem, we propose txt2onto 2.0, a general-purpose method based on natural language processing and machine learning for annotating biomedical unstructured metadata to controlled vocabularies of diseases and tissues. Compared to the previous version (txt2onto 1.0), which uses numerical embeddings as features, this new version uses words as features, resulting in improved interpretability and performance, especially when few positive training instances are available. Txt2onto 2.0 uses embeddings from a large language model during prediction to deal with unseen-yet-relevant words in the input text and to highlight biomedical concepts in the input text that are related to each disease and tissue term being predicted, thereby explaining the basis of every annotation. We demonstrate the generalizability of txt2onto 2.0 by accurately predicting disease annotations for studies from independent datasets, using proteomics and clinical trials as examples. Overall, our approach can annotate biomedical text regardless of experimental types or sources. Code, data, and trained models are available at https://github.com/krishnanlab/txt2onto2.0.},
   preview = {yuan2024annotating.png},
-  publisher={Cold Spring Harbor Laboratory}
 }
 
-@article{ai2024estimation,
-  title={Estimation of Species Abundance Based on the Number of Segregating Sites using Environmental DNA (eDNA)},
-  author={Ai, Qiaoyun and Yuan, Hao and Wang, Ying and Li, Chenhong},
-  journal={bioRxiv},
-  pages={2024--04},
-  year={2024},
-  abstract = {The advance of environmental DNA (eDNA) has enabled rapid and non-invasive species detection in aquatic environments. Although most studies focus on species detections, some recent studies explored the potential of using eDNA concentration to quantify species abundance. However, the differential individual DNA contribution to eDNA samples could easily obscure the concentration-species abundance relationship. We propose using the number of segregating sites as a proxy for estimating species abundance. Since segregating sites reflects the genetic diversity of the population, which is less sensitive to differential individual DNA contribution than eDNA concentration. We examined the relationship between the number of segregating sites and species abundance in silico, in vitro, and in situ using two brackish goby species, Acanthogobius hasta and Tridentiger bifasciatus. Analyses of the simulated data and in vitro data with DNA mixed from a known number of individuals showed a strong correlation between the number of segregating sites and species abundance (R2 > 0.9; P < 0.01). Results from the in situ experiment further validated the correlation (R2 = 0.70, P < 0.01), and such correlation was not affected by biotic factors, including body size and feeding behavior (P > 0.05). Results of the cross-validation test also showed that the number of segregating sites predicted species abundance with less bias and variability than the eDNA concentration. Overall, the number of segregating sites correlates stronger with species abundance and also provides a better estimate than eDNA concentration. This advancement can significantly enhance the quantitative capabilities of eDNA technology.},
-  preview = {ai2024estimation.png},
-  publisher={Cold Spring Harbor Laboratory}
-}
-
-@techreport{liu_cone_2023,
-	type = {preprint},
-	title = {{CONE}: {COntext}-specific {Network} {Embedding} via {Contextualized} {Graph} {Attention}},
-	shorttitle = {{CONE}},
-	url = {http://biorxiv.org/lookup/doi/10.1101/2023.10.21.563390},
-	abstract = {Human gene interaction networks, commonly known as interactomes, encode genes’ functional relationships, which are invaluable knowledge for translational medical research and the mechanistic understanding of complex human diseases. Meanwhile, the advancement of network embedding techniques has inspired recent efforts to identify novel human disease-associated genes using canonical interactome embeddings. However, one pivotal challenge that persists stems from the fact that many complex diseases manifest in specific biological contexts, such as tissues or cell types, and many existing interactomes do not encapsulate such information. Here, we propose CONE3, a versatile approach to generate contextspecific embeddings from a context-free interactome. The core component of CONE consists of a graph attention network with contextual conditioning, and it is trained in a noise contrastive fashion using contextualized interactome random walks localized around contextual genes. We demonstrate the strong performance of CONE embeddings in identifying disease-associated genes when using known associated biological contexts to the diseases. Furthermore, our approach offers insights into understanding the biological contexts associated with human diseases.},
-	language = {en},
-	urldate = {2023-12-13},
-	institution = {Bioinformatics},
-	author = {Liu, Renming and Yuan, Hao and Johnson, Kayla A and Krishnan, Arjun},
-	month = oct,
-	year = {2023},
-	doi = {10.1101/2023.10.21.563390},
-	file = {Liu et al. - 2023 - CONE COntext-specific Network Embedding via Conte.pdf:/Users/haoyuan/Zotero/storage/LJGCKE76/Liu et al. - 2023 - CONE COntext-specific Network Embedding via Conte.pdf:application/pdf},
-	preview = {liu2023.jpg}
+@InProceedings{pmlr-v261-liu24a,
+  title = 	 {CONE: COntext-specific Network Embedding via Contextualized Graph Attention},
+  author =       {Liu, Renming and Yuan, Hao and Johnson, Kayla and Krishnan, Arjun},
+  booktitle = 	 {Proceedings of the 19th Machine Learning in Computational Biology meeting},
+  pages = 	 {53--71},
+  year = 	 {2024},
+  editor = 	 {Knowles, David A and Mostafavi, Sara},
+  volume = 	 {261},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {05--06 Sep},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v261/main/assets/liu24a/liu24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v261/liu24a.html},
+  abstract = 	 {Human gene interaction networks, commonly known as interactomes, encode genes’ functional relationships, which are invaluable knowledge for translational medical research and the mechanistic understanding of complex human diseases. Advanced network embedding techniques have inspired recent efforts to identify novel human disease-associated genes using canonical interactome embeddings. However, a pivotal challenge persists as many complex diseases manifest in specific biological contexts, such as tissues or cell types, while many existing interactomes do not encapsulate such information. Here, we propose CONE (\url{https://github.com/krishnanlab/cone}), a versatile approach to generate context-specific embeddings from any context-free interactomes. The core component of CONE consists of a graph attention network with contextual conditioning, which is trained in a noise-contrastive fashion using contextualized interactome random walks localized around contextual genes. We demonstrate the strong performance of CONE embeddings in identifying disease-associated genes when using known associated biological contexts to the diseases. Furthermore, our approach offers new insights into the biological contexts associated with human diseases.},
+  preview = {liu2023.jpg}
 }
 
 @article{atta_exon-capture_2022,
