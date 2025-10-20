@@ -49,6 +49,9 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/krishnanlab/cone">CONE</a>
+      year: 2024
+      description: 'Annotating publicly-available samples and studies using interpretable modeling of unstructured metadata'
+    - title: <a href="https://github.com/krishnanlab/cone">CONE</a>
       year: 2023
       description: 'CONE: COntext-specific Network Embedding via Contextualized Graph Attention'
     - title: <a href="https://github.com/yhadevol/Assexon">Assexon</a>
@@ -73,13 +76,11 @@
       items: 
         - Heterogeneity of complex diseases
         - Gene network analysis of complex diseases
-        - Cross-species knowledge transfer between research organism and human
-    - title: Natural language processing
-      items: 
-        - Metadata analysis for biomedical samples/studies
+        - Statistical modeling of single cell data
     - title: Evolution
       items:
-        - EvoDevo
+        - Cross-species knowledge transfer between research organism and human
+        - Cell type evolution
 
 - title: Other Interests
   type: list
