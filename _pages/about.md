@@ -25,6 +25,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm a PhD candidate from Michigan State University. I'm currently working in [Braasch Lab](https://www.fishevodevogeno.org) and [Krishnan Lab](https://www.thekrishnanlab.org). I am particularly interested in how to identify and evaluate the molecular basis of rare and complex diseases at individual patient scales. Currently, I'm working on developing computational approaches to (1) characterize the pathology of the patient based on personalized gene networks, (2) prioritize biomedical factors related to the patient using NLP approaches, (3) estimate perturbed networks that capture the disease context in patients, then identify equivalent disease-related genes for further experimental investigation. I hope to build tools to accurately characterize the pathology behind complex diseases and, more importantly, accelerate the process of experimentally identifying genes (and gene networks) in animal models to further characterize impacted cell types, tissue, and emergent phenotypes, and finally prioritize therapeutics.
+Hi, I'm a PhD candidate from Michigan State University. I'm currently working in [Braasch Lab](https://www.fishevodevogeno.org) and [Krishnan Lab](https://www.thekrishnanlab.org). I am a computational biologist with broad interests in machine learning and statistical methods for single-cell analysis, graph learning, cross-species knowledge transfer, and evolutionary genomics.
+
+
+My current research focuses on developing computational approaches to:
+1. identify mechanisms linking GWAS risk to specific cell populations using single-cell data, and
+2. understand how genome duplication has shaped brain cell-type evolution in teleost fishes.
+
+
+In the longer term, I aim to build methods that integrate diverse omics modalities — including single-cell datasets, interaction profiling, and comparative genomics — to characterize the genetic etiology of complex diseases by integrating omics data from both humans and research organisms, and to study how these molecular systems evolve over time.
+
 
 When I'm not working I like to cook and play video games.
