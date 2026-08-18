@@ -3,16 +3,25 @@
   contents:
     - name: Full Name
       value: Hao Yuan
+    - name: Position
+      value: Postdoctoral Fellow, Department of Molecular Biosciences, University of Texas at Austin
+    - name: Email
+      value: hao.yuan@austin.utexas.edu
+    - name: Phone
+      value: (517) 402-1770
     - name: Languages
       value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Genetic and Genome Science Program & Ecology, Evolution and Behavior Program
+    - title: PhD in Genetics and Genome Sciences & Ecology, Evolution and Behavior
       institution: Michigan State University, MI, USA
-      year: 2021-
+      year: 2021-2026
       description:
+        - title: Topic
+          contents:
+            - Contextualizing Biological Associations Across Genes, Cell Types, Species, and Evolution
         - title: Advisor
           contents:
             - Ingo Braasch
@@ -21,6 +30,9 @@
       institution: Shanghai Ocean University, Shanghai, China
       year: 2016-2019
       description:
+        - title: Topic
+          contents:
+            - Assembly and Filtering of Enriched Data from Exon Capture Across Species
         - title: Advisor
           contents:
             - Chenhong Li
@@ -35,9 +47,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Fellow
+      institution: Marcotte Lab, University of Texas at Austin
+      year: 2026-
     - title: Graduate Assistant
-      institution: Braasch Lab & Krishnan Lab
-      year: 2021- 
+      institution: Braasch Lab & Krishnan Lab, Michigan State University
+      year: 2021-2026
     - title: Bioinformatician
       institution: Shanghai Amplicongene Bioscience Co. LTD.
       year: 2020-2021
@@ -48,6 +63,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/krishnanlab/icepop">ICePop</a>
+      year: 2026
+      description: 'Linking Genetic Risk to Disease-Relevant Cellular States via Metacell-Informed Modeling with ICePop'
     - title: <a href="https://github.com/krishnanlab/txt2onto2.0">txt2onto2.0</a>
       year: 2024
       description: 'Annotating publicly-available samples and studies using interpretable modeling of unstructured metadata'
@@ -57,23 +75,139 @@
     - title: <a href="https://github.com/yhadevol/Assexon">Assexon</a>
       year: 2018-2019
       description: 'Assexon: Assembling Exon Using Gene Capture Data'
-   
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Computational Background and Skills
+      items:
+        - Well-versed with Python, R, Linux command line and version control using GitHub
+        - Experience with Python package development
+        - Experience working with high-performance computing resources
+    - title: Computational Genomics, Network Modeling, and Text Mining Skills
+      items:
+        - Well-versed with genomic data analysis including genomic sequences, bulk and single-cell transcriptomics
+        - Experience with graph learning methods using protein-protein interaction networks and integrated analysis with omic data
+        - Experience with statistical modeling using single cell omic data
+        - Experience with using large language models for large-scale text mining and metadata analysis
+    - title: Statistics, Data Science, and Machine Learning
+      items:
+        - Data wrangling and visualization in Python with pandas, matplotlib, and seaborn
+        - Statistical modeling and machine learning in Python with numpy, numba, statsmodels, scipy, scikit-learn and PyTorch
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Genetics and Genome Sciences Program Outstanding Student Award
     - year: 2023
-      items: 
+      items:
         - Summer College of Natural Science Outstanding Scholar Fellowship
-    - year: 2018
-      items: 
-        - National Scholarship for Graduate Students
+
+- title: Talks
+  type: time_table
+  contents:
+    - title: CONE&#58; COntext-specific Network Embedding via Contextualized Graph Attention
+      institution: Machine Learning in Computational Biology 2024, Seattle, WA
+      year: Sep 2024
+    - title: Discovering context-specific functionally equivalent genes in research organisms using cross species transcriptome-based machine learning
+      institution: The Allied Genetics Conference 2024, Metro Washington, DC
+      year: Mar 2024
+    - title: An ML framework for precision medicine&#58; from patient-specific gene networks to translational animal models
+      institution: Rocky 2022 Bioinformatics Conference, Snowmass, CO
+      year: Dec 2022
+    - title: Genome-wide detection of sites under selection using a modified method of evolutionary probability - a case study on adaptive evolution of Homo species
+      institution: 23rd Academic Annual Meeting of China Zoological Society, Wuhan, China
+      year: Oct 2016
+    - title: Annotating public omics samples and studies using interpretable modeling of unstructured metadata by txt2onto 2.0
+      institution: Genetics and Genome Sciences Forum, Michigan State University
+      year: Oct 2024
+    - title: An ML framework for precision medicine&#58; from patient-specific gene networks to translational research organisms
+      institution: Genetics and Genome Sciences Forum, Michigan State University
+      year: Feb 2024
+    - title: Reconstruct patient-specific gene networks from transcriptomic data
+      institution: Genetics and Genome Sciences Forum, Michigan State University
+      year: Oct 2023
+    - title: An ML framework for precision medicine&#58; from patient-specific gene networks to translational animal models
+      institution: Computational Biology Forum, Michigan State University
+      year: Oct 2022
+
+- title: Posters
+  type: time_table
+  contents:
+    - title: Evolutionary Implications of the Teleost Genome Duplication Revealed by Cross-Species Single-Cell Transcriptomic Comparison
+      institution: American Society for Biochemistry and Molecular Biology 2025&#58; Evolution and Core Processes in Gene Expression, Kansas City, MO
+      year: 2025
+    - title: ICePop&#58; Identifying Disease-Affected Cell Types Through Network-Based Analysis of Gene Module Overexpression in Single-Cell Data
+      institution: Network Biology 2025, Cold Spring Harbor, NY
+      year: 2025
+    - title: ICePop&#58; Identifying Disease-Affected Cell Types Through Network-Based Analysis of Gene Module Overexpression in Single-Cell Data
+      institution: Biological Data Science 2024, Cold Spring Harbor, NY
+      year: 2024
+    - title: Tracking dynamic regulatory changes in rare diseases using single sample networks
+      institution: Annual Meeting of American Society of Human Genetics 2024, Denver, CO
+      year: 2024
+    - title: CONE&#58; COntext-specific Network Embedding via Contextualized Graph Attention
+      institution: Machine Learning in Computational Biology 2024, Seattle, WA
+      year: 2024
+    - title: Interpretable text-based machine learning for inferring systematic tissue and disease annotations of public transcriptome samples
+      institution: Genome Informatics 2023, Cold Spring Harbor, NY
+      year: 2023
+    - title: An ML framework for precision medicine&#58; from patient-specific gene networks to translational animal models
+      institution: Network Biology 2023, Cold Spring Harbor, NY
+      year: 2023
+    - title: An ML framework for precision medicine&#58; from patient-specific gene networks to translational animal models
+      institution: Rocky 2022 Bioinformatics Conference, Snowmass, CO
+      year: 2022
+    - title: Cross-species transcriptome-based regression to discover equivalents of human samples and genes in biomedical research organisms
+      institution: 30th Conference on Intelligent Systems for Molecular Biology, Madison, WI
+      year: 2022
+    - title: EXpipe&#58; An Assembly Pipeline for Exon Capture Data Across Large Scales of Divergence
+      institution: 1st AsiaEvo Conference, Shenzhen, China
+      year: 2018
+
+- title: Teaching and Mentoring
+  type: nested_list
+  contents:
+    - title: Teaching
+      items:
+        - "2023: IBIO341 Fundamental Genetics, Teaching Assistant"
+    - title: Mentoring (Post-baccalaureate)
+      items:
+        - "2023-2025: Lydia Valtadoros, Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus"
+    - title: Mentoring (Junior Graduate Student)
+      items:
+        - "2023-2026: Parker Hicks, Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus"
+
+- title: Professional Service
+  type: nested_list
+  contents:
+    - title: Reviewing Service
+      items:
+        - "2026: G3&#58; Genes, Genomes, Genetics (2 manuscripts)"
+        - "2025: G3&#58; Genes, Genomes, Genetics (1 manuscript)"
+        - "2024: Journal of Experimental Zoology Part B&#58; Molecular and Developmental Evolution (1 manuscript, co-review with Dr. Ingo Braasch)"
+        - "2023: Genome Biology (1 manuscript, co-review with Dr. Arjun Krishnan)"
+        - "2022: Genome Research (1 manuscript, co-review with Dr. Arjun Krishnan)"
+    - title: Community Service
+      items:
+        - "2023-2025: Genetics and Genome Sciences Program Seminar Coordinator"
+        - "2023-2025: Genetics and Genome Sciences Program Graduate Student Organization"
+    - title: Career Development Activities
+      items:
+        - "Jan 2023: Graduate Student Career Forum"
+        - "Apr 2022: APIDA Virtual Career Panel&#58; Careers in Data, Analytics, Technology, & Engineering"
+        - "Apr 2022: Boost your professional power skills"
+    - title: STEM Outreach
+      items:
+        - "Dec 2023: AP Biology DeWitt High School Visit Day"
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Biomedicine
-      items: 
+      items:
         - Heterogeneity of complex diseases
         - Gene network analysis of complex diseases
         - Statistical modeling of single cell data

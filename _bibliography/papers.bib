@@ -1,5 +1,39 @@
 ---
 ---
+@article{yuan2026linking,
+  title={Linking Genetic Risk to Disease-Relevant Cellular States via Metacell-Informed Modeling with ICePop},
+  author={Yuan, Hao and Mandava, Aishwarya and Samart, Kewalin and Ganz, Julia and Krishnan, Arjun},
+  journal={bioRxiv},
+  pages={2026--04},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory},
+  abstract={Genome-wide association studies (GWAS) have implicated thousands of loci in complex diseases, but translating these population-level signals into specific cellular contexts remains a central challenge. Integrating GWAS with single-cell transcriptomics data has enabled systematic identification of disease-relevant cell types, yet existing methods face a fundamental tradeoff: approaches like seismic that optimized for statistical power operate at the annotated cell-type level and miss heterogeneous disease signals concentrated in specific cellular states, while single-cell-resolution approaches like scDRS that capture such heterogeneity often lack sufficient power to detect subtle associations. Here we present ICePop (Informative Cell Populations), a framework that resolves this tradeoff by performing disease-cell type association at metacell resolution, thus achieving statistical power comparable to cell-type-level methods while detecting heterogeneous disease signals within cell types. In simulations against seismic and scDRS, ICePop maintains appropriate false positive rates and demonstrates superior power when disease effects are concentrated in cellular subpopulations. Applied to Tabula Muris across 81 traits and 120 cell types, ICePop identifies 1,684 disease-cell type associations, including the preferential vulnerability of differentiated gut epithelial cells in ulcerative colitis and loss of cell identity in immune-stressed lung capillary endothelial cells underlying their association with lung function. Clustering diseases by metacell association profiles reveals groupings that diverge from genetic risk-based clustering, including separation of blood cell count traits from immune diseases despite shared genetic architecture, reflecting differences in cellular rather than genetic etiology. In autism spectrum disorder, ICePop identifies preferential enrichment of genetic risk in specific enteric neuron subtypes, implicating dysfunction of the enteric nervous system in gastrointestinal comorbidities. ICePop's resolution of disease-relevant cell states within annotated cell types enables generation of testable, cell-state-specific hypotheses about disease mechanisms and therapeutic targets.},
+  preview={yuan2026linking.png},
+}
+
+@article{yuan2026computational,
+  title={Computational strategies for cross-species knowledge transfer},
+  author={Yuan, Hao and Mancuso, Christopher A and Johnson, Kayla and Braasch, Ingo and Krishnan, Arjun},
+  journal={Nature methods},
+  volume={23},
+  number={2},
+  pages={312--327},
+  year={2026},
+  publisher={Nature Publishing Group US New York},
+  abstract={Research organisms provide invaluable insights into human biology and diseases, serving as essential tools for functional experiments, disease modeling and drug testing. However, evolutionary divergence between humans and research organisms hinders effective knowledge transfer across species. Here, we review state-of-the-art methods for computationally transferring knowledge across species, primarily focusing on methods that use transcriptome data and/or molecular networks. Our Perspective addresses four key areas: (1) transferring disease and gene annotation knowledge across species, (2) identifying functionally equivalent molecular components, (3) inferring equivalent perturbed genes or gene sets and (4) identifying equivalent cell types. We conclude with an outlook on future directions and several key challenges that remain in cross-species knowledge transfer, including introducing the concept of 'agnology' to describe functional equivalence of biological entities, regardless of their evolutionary origins. This concept is becoming pervasive in integrative data-driven models in which evolutionary origins of functions can remain unresolved.},
+  preview={yuan2024computational.png},
+}
+
+@article{valtadoros2026large,
+  title={Large-scale automated detection reveals pervasive sex imbalance in biomedical research},
+  author={Valtadoros, Lydia E and Hicks, Parker and Yuan, Hao and Ahmadian, Mansooreh and Johnson, Kayla A and Krishnan, Arjun},
+  journal={bioRxiv},
+  pages={2026--07},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory},
+  abstract={Sex is a critical biological variable that impacts disease risk, progression, and treatment response across virtually every organ system. However, decades of biomedical research have relied primarily on male study subjects, leaving large gaps in our understanding of female-specific disease biology. Quantifying the extent of this imbalance across thousands of disease areas and millions of publicly available biological samples has remained computationally intractable. Here, we present a multimodal computational framework that infers the biological sex of ~230,000 publicly available human transcriptome samples and links inferred sex labels to disease terms extracted from ~9,000 associated study records and ~5,000 publication abstracts to quantify sex imbalance at scale. Applying this approach revealed that the majority of disease terms with the largest research-derived sex imbalance are skewed toward male representation, including areas with no known biological justification for that imbalance. After adjusting for global sex-specific disease prevalence to isolate biologically unjustified imbalance, up to 58% of all disease terms showed male-leaning association. Diseases including glioblastoma, cirrhosis, idiopathic pulmonary fibrosis, and schizophrenia emerged as critically understudied in females despite affecting both sexes comparably. These findings provide a principled, data-driven basis for prioritizing compensatory research efforts and offer a reusable framework for ongoing monitoring of sex representation in the biomedical literature.},
+  previwe={valtadoros2026large.png},
+}
 
 @article{ai2025estimation,
   title={Estimation of species abundance based on the number of segregating sites using environmental DNA (eDNA)},
@@ -12,15 +46,6 @@
   publisher={Wiley Online Library},
   abstract = {The advance of environmental DNA (eDNA) has enabled rapid and non-invasive species detection in aquatic environments. Although most studies focus on species detections, some recent studies explored the potential of using eDNA concentration to quantify species abundance. However, the differential individual DNA contribution to eDNA samples could easily obscure the concentration-species abundance relationship. We propose using the number of segregating sites as a proxy for estimating species abundance. Since segregating sites reflects the genetic diversity of the population, which is less sensitive to differential individual DNA contribution than eDNA concentration. We examined the relationship between the number of segregating sites and species abundance in silico, in vitro, and in situ using two brackish goby species, Acanthogobius hasta and Tridentiger bifasciatus. Analyses of the simulated data and in vitro data with DNA mixed from a known number of individuals showed a strong correlation between the number of segregating sites and species abundance (R2 > 0.9; P < 0.01). Results from the in situ experiment further validated the correlation (R2 = 0.70, P < 0.01), and such correlation was not affected by biotic factors, including body size and feeding behavior (P > 0.05). Results of the cross-validation test also showed that the number of segregating sites predicted species abundance with less bias and variability than the eDNA concentration. Overall, the number of segregating sites correlates stronger with species abundance and also provides a better estimate than eDNA concentration. This advancement can significantly enhance the quantitative capabilities of eDNA technology.},
   preview = {ai2024estimation.png},
-}
-
-@article{yuan2024computational,
-  title={Computational strategies for cross-species knowledge transfer and translational biomedicine},
-  author={Yuan, Hao and Mancuso, Christopher A and Johnson, Kayla and Braasch, Ingo and Krishnan, Arjun},
-  journal={arXiv preprint arXiv:2408.08503},
-  abstract = {Research organisms provide invaluable insights into human biology and diseases, serving as essential tools for functional experiments, disease modeling, and drug testing. However, evolutionary divergence between humans and research organisms hinders effective knowledge transfer across species. Here, we review state-of-the-art methods for computationally transferring knowledge across species, primarily focusing on methods that utilize transcriptome data and/or molecular networks. We introduce the term "agnology" to describe the functional equivalence of molecular components regardless of evolutionary origin, as this concept is becoming pervasive in integrative data-driven models where the role of evolutionary origin can become unclear. Our review addresses four key areas of information and knowledge transfer across species: (1) transferring disease and gene annotation knowledge, (2) identifying agnologous molecular components, (3) inferring equivalent perturbed genes or gene sets, and (4) identifying agnologous cell types. We conclude with an outlook on future directions and several key challenges that remain in cross-species knowledge transfer.},
-  preview = {yuan2024computational.png},
-  year={2024}
 }
 
 @article{yuan2024annotating,

@@ -4,10 +4,9 @@ title: about
 permalink: /
 subtitle: >
     <p>
-    PhD Candidate<br>
-    Michigan State University<br>
-    Genetic and Genome Science Program<br>
-    Ecology, Evolution and Behavior Program<br>
+    Postdoctoral Fellow<br>
+    Department of Molecular Biosciences<br>
+    University of Texas at Austin<br>
     </p>
 
 profile:
@@ -15,9 +14,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Giltner Hall 361</p>
-    <p>293 Farm Lane</p>
-    <p>East Lansing MI 48824, USA</p>
+    <p>Department of Molecular Biosciences</p>
+    <p>University of Texas at Austin</p>
+    <p>Austin, TX, USA</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -25,15 +24,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I'm a PhD candidate from Michigan State University. I'm currently working in [Braasch Lab](https://www.fishevodevogeno.org) and [Krishnan Lab](https://www.thekrishnanlab.org). I am a computational biologist with broad interests in machine learning and statistical methods for single-cell analysis, graph learning, cross-species knowledge transfer, and evolutionary genomics.
+Hi! I’m a postdoctoral fellow in the [Marcotte Lab](https://www.marcottelab.org/index.php/Main_Page) at The University of Texas at Austin. I recently completed my Ph.D. at Michigan State University, where I worked in the [Braasch Lab](https://www.fishevodevogeno.org) and [Krishnan Lab](https://www.thekrishnanlab.org).
 
+I’m a computational biologist interested in using machine learning, statistics, and omics data to understand how biological systems function in different contexts and how they evolve over time.
 
-My current research focuses on developing computational approaches to:
-1. identify mechanisms linking GWAS risk to specific cell populations using single-cell data, and
-2. understand how genome duplication has shaped brain cell-type evolution in teleost fishes.
+During my Ph.D., I worked on several related problems, including:
+1. using machine learning to organize and annotate omics metadata for better data reuse
+2. integrating single-cell transcriptomics with GWAS to understand potential affected cell populations by complex diseases, along with associated genes and biological processes.
+3. learning gene representations from interaction networks for predicting gene-disease association across tissue contexts
+4. studying how genome duplication shaped brain cell-type evolution in teleost fishes through cross-species analysis.
 
+In my postdoc, my research has shifted more toward proteomics, protein interactions, and protein-complex discovery, with a broader systems-level interest in how molecular interactions change across biological conditions and how interaction networks evolve across major evolutionary events.
 
-In the longer term, I aim to build methods that integrate diverse omics modalities — including single-cell datasets, interaction profiling, and comparative genomics — to characterize the genetic etiology of complex diseases by integrating omics data from both humans and research organisms, and to study how these molecular systems evolve over time.
-
-
-When I'm not working I like to cook and play video games.
+Long term, I’m interested in developing computational methods that connect genes, proteins, and other molecular components into interpretable and experimentally testable models of biological systems, while also understanding how these systems evolve over time.
